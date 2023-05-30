@@ -1,0 +1,40 @@
+
+
+
+<div class="container text-center" style="width: 28rem;">
+    <div class="card card-body p-4 rounded-1 " style="background-color: #09575B;" >
+       <form action="/edit/{{task._id}}" method="POST">
+
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="title" placeholder="Titulo" value="{{task.title}}">
+        </div>
+             <hr>
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="autor"  cols="30" placeholder="Añade el Autor" value="{{task.autor}}">
+        </div>
+             <hr>
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="volumen"  cols="30" placeholder="Añade el volumen" value="{{task.volumen}}">
+        </div>
+             <hr>
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="editorial"  cols="30" placeholder="Añade la Editorial" value="{{task.editorial}}">
+        </div>
+             <hr>
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="date"  cols="30" placeholder="Añade cantidad" value="{{task.date}}">
+        </div>
+              <hr>
+        <div>
+             <input class="form-control" style="background-color: #467B7F;" type="text" name="entrada"  cols="30" placeholder="fecha de entrada"value="{{task.entrada}}">
+        </div>
+               <hr>
+        <div class="d-grid gap-2 col-6 mx-auto">
+             <button  class="btn btn-outline-secondary mx-auto" style="color: white;border-radius: 8px;"><i class="bi bi-repeat"></i>ACTUALIZAR</button>
+        </div>
+    
+    
+    
+</form>
+</div>
+</div>
